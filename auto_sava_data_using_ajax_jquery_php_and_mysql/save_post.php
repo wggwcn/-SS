@@ -10,6 +10,7 @@
     $sql = "UPDATE tbl_post SET post_title = '".$post_title."', post_description = '".$post_description."' WHERE post_id = '".$_POST["postId"]."'";  
     mysqli_query($connect, $sql);  
   }  
+   //ffff
   else  
   {  
     //insert post  
